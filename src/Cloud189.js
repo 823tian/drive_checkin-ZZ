@@ -214,8 +214,8 @@ const main = async () => {
     logger.log("\n\n");
     const events = recording.replay();
     const content = events.map((e) => `${e.data.join("")}`).join("  \n");
-    const capacityChange = familyCapacitySize2 - familyCapacitySize;
-    const title = `主帐号:家庭容量+ ${capacityChange / 1024 / 1024}M`;
-    push(title, content);
+    push("天翼云盘自动签到任务", content);
   }
-})();    
+})();
+请你明确一下具体需求，比如对这段代码进行优化、修复其中的问题、添加功能、将其翻译成其他语言等，以便我更为精准地为你提供服务。
+只个改微信推送WX_PUSHER中，标题为主帐号:家庭容量+多少M
